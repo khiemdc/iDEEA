@@ -12,6 +12,7 @@ import { StepsComponent } from './home/steps/steps.component';
 import { ScorecardComponent } from './scorecard/scorecard.component';
 import { AdminComponent } from './admin/admin.component';
 import { VendorDetailComponent } from './admin/vendor-detail.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
    declarations: [
@@ -22,7 +23,8 @@ import { VendorDetailComponent } from './admin/vendor-detail.component';
       FooterComponent,
       ScorecardComponent,
       AdminComponent,
-      VendorDetailComponent
+      VendorDetailComponent,
+      ContactComponent
    ],
    imports: [
       BrowserModule,
